@@ -1,0 +1,11 @@
+# Player Config
+firstJoin_message: "<player> &7has joined the server for the first time!"
+join_message: "<player> &7has joined the server!"
+quit_message: "<player> &7 has left the server!"
+chat_message: "<player>: &f<message>"
+tablist: "<player>  "
+
+# Block Config
+breakBlock_message: "&a<player> &7broke <block>"
+breakBlock_disabled_message: "&7Teleport on Block Break &4DISABLED"
+breakBlock_enabled_message: "&7Teleport on Block Break &aENABLED"

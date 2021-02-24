@@ -1,0 +1,11 @@
+name: SuncraftPlugins
+version: 1.0.2
+author: Sambutler1017
+main: org.suncraft.plugins.Main
+description: Suncraft Plugins
+
+commands:
+  blockBreakTP:
+    aliases: [bbtp]
+    description: Teleports you to y = 200 when player breaks a block
+    permission: suncraft.block
