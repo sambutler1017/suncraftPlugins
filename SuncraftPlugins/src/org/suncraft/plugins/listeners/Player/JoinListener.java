@@ -1,6 +1,7 @@
 package org.suncraft.plugins.listeners.Player;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Statistic;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -26,6 +27,8 @@ public class JoinListener implements Listener {
 	@EventHandler
 	public void onJoin(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
+
+		p.getStatistic(Statistic.PLAYER_KILLS);
 
 		String name = String.format("%s %s", Utils.getRole(p).displayName(), p.getDisplayName());
 		p.setPlayerListName(Utils.chat(plugin.getConfig().getString("tablist").replace("<player>", name)));

@@ -4,6 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.suncraft.plugins.listeners.Block.BlockBreakListener;
 import org.suncraft.plugins.listeners.Block.BlockBreakTabCompletion;
 import org.suncraft.plugins.listeners.Player.ChatListener;
+import org.suncraft.plugins.listeners.Player.DeathListener;
 import org.suncraft.plugins.listeners.Player.JoinListener;
 import org.suncraft.plugins.listeners.Player.LeaveListener;
 
@@ -42,5 +43,6 @@ public class Main extends JavaPlugin {
 		new JoinListener(this);
 		new LeaveListener(this);
 		new ChatListener(this);
+		new DeathListener(this);
 	}
 }

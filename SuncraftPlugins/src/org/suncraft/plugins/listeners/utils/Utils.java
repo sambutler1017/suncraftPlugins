@@ -11,7 +11,7 @@ public class Utils {
 
     public static Role getRole(Player p) {
         for (Role r : Role.values()) {
-            if(p.hasPermission(r.permission())) {
+            if (p.hasPermission(r.permission())) {
                 return r;
             }
         }
