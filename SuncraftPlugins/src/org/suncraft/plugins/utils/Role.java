@@ -1,4 +1,4 @@
-package org.suncraft.plugins.listeners.utils;
+package org.suncraft.plugins.utils;
 
 import java.util.Arrays;
 import java.util.List;

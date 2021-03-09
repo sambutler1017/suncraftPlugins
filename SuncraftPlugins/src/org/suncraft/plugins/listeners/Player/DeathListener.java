@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.suncraft.plugins.Main;
-import org.suncraft.plugins.listeners.utils.Utils;
+import org.suncraft.plugins.utils.Utils;
 
 @SuppressWarnings("unused")
 public class DeathListener implements Listener {

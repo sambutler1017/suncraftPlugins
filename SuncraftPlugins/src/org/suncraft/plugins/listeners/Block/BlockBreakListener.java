@@ -10,7 +10,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.suncraft.plugins.Main;
-import org.suncraft.plugins.listeners.utils.Utils;
+import org.suncraft.plugins.utils.Utils;
 
 /**
  * Broadcast a message when a player breaks a block

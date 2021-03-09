@@ -9,3 +9,7 @@ tablist: "<player>  "
 breakBlock_message: "&a<player> &7broke <block>"
 breakBlock_disabled_message: "&7Teleport on Block Break &4DISABLED"
 breakBlock_enabled_message: "&7Teleport on Block Break &aENABLED"
+
+#Mob Config
+hostileMobs_enabled_message: "&7Hostile Mobs &aENABLED"
+hostileMobs_disabled_message: "&7Hostile Mobs &4DISABLED"

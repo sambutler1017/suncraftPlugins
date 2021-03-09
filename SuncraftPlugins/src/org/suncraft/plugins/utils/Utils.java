@@ -1,4 +1,4 @@
-package org.suncraft.plugins.listeners.utils;
+package org.suncraft.plugins.utils;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

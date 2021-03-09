@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.suncraft.plugins.Main;
-import org.suncraft.plugins.listeners.utils.Utils;
+import org.suncraft.plugins.utils.Utils;
 
 /**
  * Join Listener class that outputs a join message in the chat

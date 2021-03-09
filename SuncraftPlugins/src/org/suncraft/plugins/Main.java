@@ -3,6 +3,9 @@ package org.suncraft.plugins;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.suncraft.plugins.listeners.Block.BlockBreakListener;
 import org.suncraft.plugins.listeners.Block.BlockBreakTabCompletion;
+import org.suncraft.plugins.listeners.Mobs.MobHostileListender;
+import org.suncraft.plugins.listeners.Mobs.MobHostileTabCompletion;
+import org.suncraft.plugins.listeners.Mobs.MobSpawnListener;
 import org.suncraft.plugins.listeners.Player.ChatListener;
 import org.suncraft.plugins.listeners.Player.DeathListener;
 import org.suncraft.plugins.listeners.Player.JoinListener;
@@ -32,6 +35,9 @@ public class Main extends JavaPlugin {
 	private void commandInit() {
 		getCommand("blockBreakTP").setExecutor(new BlockBreakListener(this));
 		getCommand("blockBreakTP").setTabCompleter(new BlockBreakTabCompletion());
+
+		getCommand("hostileMobs").setExecutor(new MobHostileListender(this));
+		getCommand("hostileMobs").setTabCompleter(new MobHostileTabCompletion());
 	}
 
 	/**
@@ -44,5 +50,6 @@ public class Main extends JavaPlugin {
 		new LeaveListener(this);
 		new ChatListener(this);
 		new DeathListener(this);
+		new MobSpawnListener(this);
 	}
 }
